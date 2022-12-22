@@ -1,5 +1,5 @@
 import { DoubleSide, Material, Mesh, MeshLambertMaterial } from 'three';
-import { IFCModel } from 'web-ifc-three/IFC/components/IFCModel';
+import { IFCModel } from '@ifc-js/web-ifc-three/IFC/components/IFCModel';
 import { IfcSelection } from './selection';
 import { IfcManager } from '../ifc-manager';
 import { IfcContext } from '../../context';

@@ -1,9 +1,9 @@
 // @ts-ignore
 import { computeBoundsTree, disposeBoundsTree, acceleratedRaycast } from 'three-mesh-bvh';
 import { Matrix4 } from 'three';
-import { IFCLoader } from 'web-ifc-three/IFCLoader';
-import { LoaderSettings } from 'web-ifc';
-import { IFCModel } from 'web-ifc-three/IFC/components/IFCModel';
+import { IFCLoader } from '@ifc-js/web-ifc-three/IFCLoader';
+import { LoaderSettings } from '@ifc-js/web-ifc';
+import { IFCModel } from '@ifc-js/web-ifc-three/IFC/components/IFCModel';
 import { IfcComponent } from '../../base-types';
 import { IfcUnits } from './units';
 import { IfcSelector } from './selection/selector';

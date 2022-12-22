@@ -1,5 +1,5 @@
 import { AmbientLight, Color, DirectionalLight, Object3D, Scene } from 'three';
-import { IFCModel } from 'web-ifc-three/IFC/components/IFCModel';
+import { IFCModel } from '@ifc-js/web-ifc-three/IFC/components/IFCModel';
 import { IfcComponent, ViewerOptions } from '../../base-types';
 import { IfcContext } from './context';
 

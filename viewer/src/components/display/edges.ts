@@ -1,5 +1,5 @@
 import { LineSegments, EdgesGeometry, Material, Mesh } from 'three';
-import { Subset } from 'web-ifc-three/IFC/components/subsets/SubsetManager';
+import { Subset } from '@ifc-js/web-ifc-three/IFC/components/subsets/SubsetManager';
 import { IfcContext } from '../context';
 import { disposeMeshRecursively } from '../../utils/ThreeUtils';
 

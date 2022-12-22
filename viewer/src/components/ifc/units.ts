@@ -1,4 +1,4 @@
-import { IFCUNITASSIGNMENT } from 'web-ifc';
+import { IFCUNITASSIGNMENT } from '@ifc-js/web-ifc';
 import { IfcManager } from './ifc-manager';
 
 export enum UnitType {

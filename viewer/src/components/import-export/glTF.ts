@@ -9,11 +9,11 @@ import {
   MeshLambertMaterial,
   MeshStandardMaterial
 } from 'three';
-import { IFCModel } from 'web-ifc-three/IFC/components/IFCModel';
+import { IFCModel } from '@ifc-js/web-ifc-three/IFC/components/IFCModel';
 import { GLTFExporter } from 'three/examples/jsm/exporters/GLTFExporter';
-import { IFCLoader } from 'web-ifc-three/IFCLoader';
-import { IFCPROJECT } from 'web-ifc';
-import { IFCManager } from 'web-ifc-three/IFC/components/IFCManager';
+import { IFCLoader } from '@ifc-js/web-ifc-three/IFCLoader';
+import { IFCPROJECT } from '@ifc-js/web-ifc';
+import { IFCManager } from '@ifc-js/web-ifc-three/IFC/components/IFCManager';
 import { IfcComponent } from '../../base-types';
 import { IfcContext } from '../context';
 import { IfcManager } from '../ifc';

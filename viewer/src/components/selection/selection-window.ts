@@ -8,7 +8,7 @@ import {
   PerspectiveCamera,
   Vector2
 } from 'three';
-import { IFCModel } from 'web-ifc-three/IFC/components/IFCModel';
+import { IFCModel } from '@ifc-js/web-ifc-three/IFC/components/IFCModel';
 import { ShapeCaster } from './shape-caster';
 import { IfcContext } from '../context';
 

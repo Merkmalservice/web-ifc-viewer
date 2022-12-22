@@ -1,5 +1,5 @@
 {
-  "name": "web-ifc-viewer-basic-example",
+  "name": "@ifc-js/web-ifc-viewer-basic-example",
   "private": true,
   "type": "module",
   "version": "1.0.213",
@@ -28,7 +28,7 @@
     "stats.js": "0.17.0",
     "three": "0.135",
     "three-mesh-bvh": "^0.5.11",
-    "web-ifc": "^0.0.35",
-    "web-ifc-viewer": "1.0.213"
+    "@ifc-js/web-ifc": "*",
+    "@ifc-js/web-ifc-viewer": "*"
   }
 }

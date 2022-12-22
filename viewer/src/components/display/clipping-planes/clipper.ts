@@ -1,5 +1,5 @@
 import { Vector3, Matrix3, Intersection, Mesh, Plane } from 'three';
-import { Subsets } from 'web-ifc-three/IFC/components/subsets/SubsetManager';
+import { Subsets } from '@ifc-js/web-ifc-three/IFC/components/subsets/SubsetManager';
 import { IfcComponent } from '../../../base-types';
 import { IfcPlane } from './planes';
 import { IfcManager } from '../../ifc';

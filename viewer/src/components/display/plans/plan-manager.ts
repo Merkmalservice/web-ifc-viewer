@@ -1,5 +1,5 @@
 import { Mesh, Vector3 } from 'three';
-import { IFCBUILDINGSTOREY, IFCBUILDING } from 'web-ifc';
+import { IFCBUILDINGSTOREY, IFCBUILDING } from '@ifc-js/web-ifc';
 import { IfcPlane } from '../clipping-planes/planes';
 import { IfcClipper } from '../clipping-planes/clipper';
 import { CameraProjections, NavigationModes } from '../../../base-types';

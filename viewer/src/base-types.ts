@@ -1,5 +1,5 @@
 import { Camera, Color, Material, MOUSE } from 'three';
-import { IFCModel } from 'web-ifc-three/IFC/components/IFCModel';
+import { IFCModel } from '@ifc-js/web-ifc-three/IFC/components/IFCModel';
 import { OrbitControl } from './components/context/camera/controls/orbit-control';
 import { FirstPersonControl } from './components/context/camera/controls/first-person-control';
 import { LiteEvent } from './utils/LiteEvent';

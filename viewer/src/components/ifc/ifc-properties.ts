@@ -1,7 +1,7 @@
-import { IFCLoader } from 'web-ifc-three/IFCLoader';
-import { WebIfcAPI } from 'web-ifc-three/IFC/BaseDefinitions';
-import { IFCModel } from 'web-ifc-three/IFC/components/IFCModel';
-import { IFCBUILDING } from 'web-ifc';
+import { IFCLoader } from '@ifc-js/web-ifc-three/IFCLoader';
+import { WebIfcAPI } from '@ifc-js/web-ifc-three/IFC/BaseDefinitions';
+import { IFCModel } from '@ifc-js/web-ifc-three/IFC/components/IFCModel';
+import { IFCBUILDING } from '@ifc-js/web-ifc';
 import { IfcContext } from '../context';
 import { geometryTypes } from './geometry-types';
 

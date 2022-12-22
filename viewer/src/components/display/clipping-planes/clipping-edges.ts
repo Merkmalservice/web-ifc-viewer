@@ -29,8 +29,8 @@ import {
   IFCWALL,
   IFCWALLSTANDARDCASE,
   IFCWINDOW
-} from 'web-ifc';
-import { IFCModel } from 'web-ifc-three/IFC/components/IFCModel';
+} from '@ifc-js/web-ifc';
+import { IFCModel } from '@ifc-js/web-ifc-three/IFC/components/IFCModel';
 import { IfcManager } from '../../ifc';
 import { IfcContext } from '../../context';
 

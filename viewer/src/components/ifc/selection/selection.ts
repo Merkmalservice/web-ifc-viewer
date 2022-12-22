@@ -1,6 +1,6 @@
 import { Intersection, Material, Mesh, Scene } from 'three';
-import { IfcMesh } from 'web-ifc-three/IFC/BaseDefinitions';
-import { IFCLoader } from 'web-ifc-three/IFCLoader';
+import { IfcMesh } from '@ifc-js/web-ifc-three/IFC/BaseDefinitions';
+import { IFCLoader } from '@ifc-js/web-ifc-three/IFCLoader';
 import { IfcComponent } from '../../../base-types';
 import { IfcContext } from '../../context';
 

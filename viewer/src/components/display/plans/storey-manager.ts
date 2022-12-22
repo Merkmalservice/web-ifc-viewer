@@ -1,5 +1,5 @@
-import { IFCLoader } from 'web-ifc-three/IFCLoader';
-import { IFCBUILDING, IFCBUILDINGSTOREY, IFCUNITASSIGNMENT } from 'web-ifc';
+import { IFCLoader } from '@ifc-js/web-ifc-three/IFCLoader';
+import { IFCBUILDING, IFCBUILDINGSTOREY, IFCUNITASSIGNMENT } from '@ifc-js/web-ifc';
 
 export class StoreyManager {
   list: { [modelID: number]: any[] } = [];
